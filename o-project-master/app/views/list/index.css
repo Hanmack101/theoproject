@@ -1,0 +1,11 @@
+.default {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #facade;
+}
+
+.button {
+  display: block;
+  margin: 0;
+  width: 100%;
+  padding: 1rem;
+}

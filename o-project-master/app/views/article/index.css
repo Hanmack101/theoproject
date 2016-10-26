@@ -1,0 +1,48 @@
+.default{
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  bottom: 0;
+}
+
+
+.topBar {
+  height: 3rem;
+  width: 100%;
+  background-color: #3f3f3f;
+  color: #fafafa;
+  position: absolute;
+  display: flex;
+}
+
+.topBarLeft {
+}
+
+.topBarLeft button {
+  background: black;
+  border-radius: 0;
+  border: none;
+  line-height: 3rem;
+  background: transparent;
+  padding: 0 1rem;
+  margin: 0;
+  box-sizing: border-box;
+  color: #fafafa;
+}
+
+.topBarRight{
+  flex:1;
+  line-height: 3rem;
+  color: #fafafa;
+  font-family: Helvetica Neue;
+}
+
+.content{
+  position: absolute;
+  top: 3rem;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: calc(100vh - 3rem);
+}
